@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.usuario.bbdd.AltaActivity">
+
+    <EditText
+        android:id="@+id/txtTitulo"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Titulo:"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtAutor"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Autor:"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtPrecio"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Precio:"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/Grabar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Grabar" />
+</LinearLayout>
